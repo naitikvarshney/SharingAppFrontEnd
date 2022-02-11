@@ -9,6 +9,7 @@
     --container-width: 500px;
 
 
+    --helpback:#7882A4;
     --background:#ccc;
     --green:#27ae60;
     --light-color:#fff;
@@ -23,6 +24,7 @@
     --bg-color:#e6e6e6;
     --green:#27ae60;
 
+      --helpback:#D9D7F1;
     --main-bg-color: #EAEAEA;
     --light-blue: #03a9f4;
     --border-color: #13123285;
@@ -91,7 +93,7 @@
 
   /* will be added when user drags */
   .drop-zone.dragged {
-    background: #2196f3;
+    background: #90E0EF;
     border-color: #0288d1;
   }
 
@@ -166,7 +168,7 @@
 
   .progress-container .bg-progress {
     position: absolute;
-    background: #2196f3;
+    background: #90E0EF;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -425,7 +427,7 @@
   }
   .help{
     /* position: fixed; */
-    background: #7882A4;
+    background: var(--helpback);
     color: var(--light-color);
     cursor: pointer;
     position: fixed;
