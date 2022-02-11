@@ -91,7 +91,7 @@
 
   /* will be added when user drags */
   .drop-zone.dragged {
-    background: var(--main-bg-color);
+    background: #2196f3;
     border-color: #0288d1;
   }
 
@@ -166,7 +166,7 @@
 
   .progress-container .bg-progress {
     position: absolute;
-    background: var(--main-bg-color);
+    background: #2196f3;
     width: 100%;
     height: 100%;
     z-index: 1;
